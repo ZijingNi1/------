@@ -1,0 +1,17 @@
+create database supermarket;
+create table a(
+     id int primary key,
+     name char(10),
+     price double,
+     unit char(10),
+     stock int,
+     origin char(10),
+     time int,
+     sell int,
+     money double
+     )engine=InnoDB default charset=utf8;
+ insert into a values
+     (1,'面包',5.5,'千克',100,'济南',60,0,0),
+     (2,'牛奶',3,'瓶',50,'内蒙古',30,0,0),
+     (3,'书桌',600,'张',10,'南非',null,0,0),
+     (4,'皮卡丘玩偶',987,'个',1,'玩偶店',null,null,0);
